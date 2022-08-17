@@ -1,18 +1,8 @@
-# Realtime Chat Application
+# Splendor Inspired Game with Realtime Chat Function
 
-### [Live Site](https://realtime-chat-application.netlify.com)
-
-![Chat Application](https://i.ytimg.com/vi/ZwFA3YMfkoc/maxresdefault.jpg)
+### [Live Site](https://singapore-remasterplan.netlify.app)
 
 ## Introduction
-This is a code repository for the corresponding video tutorial. 
-
-In this video, we will create a full Realtime Chat Application. We're going to use  React on the front end, with NodeJS + Socket.io web socket library on the back end. 
-
-By the end of this video, you will have a strong understanding of how to send and receive messages using web sockets and Socket.io to make any real-time application.
-
-## Stay up to date with new projects
-New major projects coming soon, subscribe to the mailing list to stay up to date https://resource.jsmasterypro.com/newsletter
-
-Setup:
-- run ```npm i && npm start``` for both client and server side to start the development server
+This is only a prototype, not a fully functioning game
+It is build for my school project POSC101 Public Policy
+Realtime Chat function adapted from ### [adrianhajdin/project_chat_application](https://github.com/adrianhajdin/project_chat_application) 
