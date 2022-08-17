@@ -1,9 +1,48 @@
 .outerContainer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
   background-color: #1A1A1D;
+  background: url("../../icons/bg.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+button {
+  background-color: #fbf3e4;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newestContainer {
+  display: flex;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+  /* padding: 10px; */
+  /* padding-right: 10px; */
+  padding-left: 10px;
+  /* padding-top: 5px; */
+  /* font-size: 30px;
+  text-align: center; */
+}
+
+.newContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  height: 100%;
+  /* background-color: #1A1A1D; */
 }
 
 .container {
@@ -12,8 +51,8 @@
   justify-content: space-between;
   background: #FFFFFF;
   border-radius: 8px;
-  height: 60%;
-  width: 35%;
+  height: 50%;
+  width: 75%;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {

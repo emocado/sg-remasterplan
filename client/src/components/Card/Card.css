@@ -1,0 +1,26 @@
+.cardButton {
+    height: 224px;
+    width: 150px;
+    border: none;
+}
+
+.cardButton img {
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+
+.storageButton {
+    height: 180px;
+    width: 106px;
+    border: none;
+}
+
+.storageButton img {
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+/* .grid-item {
+    padding-left: 10px;
+} */

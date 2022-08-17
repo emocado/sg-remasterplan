@@ -2,20 +2,43 @@
   display: flex;
   flex-direction: column;
   margin-left: 100px;
-  color: white;
+  color: black;
   height: 60%;
   justify-content: space-between;
+}
+
+.token {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+
+.token img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .activeContainer {
   display: flex;
   align-items: center;
-  margin-bottom: 50%;
+  /* margin-bottom: 50%; */
 }
 
 .activeItem {
   display: flex;
   align-items: center;
+}
+
+.agency {
+  height: 60px;
+  width: 60px;
+}
+
+.agency img {
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
 }
 
 .activeContainer img {
@@ -26,8 +49,12 @@
   margin-bottom: 0px;
 }
 
-@media (min-width: 320px) and (max-width: 1200px) {
+.playerName {
+  cursor: pointer;
+}
+
+/* @media (min-width: 320px) and (max-width: 1200px) {
   .textContainer {
     display: none;
   }
-}
+} */
